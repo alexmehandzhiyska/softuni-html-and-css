@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+html {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    background: #234465;
+}
+
+.logo-button {
+    display: flex;
+    align-items: center;
+}
+
+.logo-button img {
+    max-width: 180px;
+    margin-right: 15px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list li {
+    margin-right: 15px;
+}
+
+.list li a, i {
+    text-decoration: none;
+    color: #91a1b2;
+}
+
+.btn {
+    color: white;
+    background: #ffa000;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+
+.categories {
+    display: flex;
+    background: white;
+    padding: 10px 150px 0px 150px;
+}
+
+.categories h3:first-child {
+    color: #ffa000;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.categories h3:last-child {
+    color: #234465;
+    margin-right: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #234465;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+.course-header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgb(0 0 0 / 45%), rgb(20 20 19 / 10%)), url(../Requirements-and-Resources/images/1565968686772.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+.text {
+    backdrop-filter: blur(10px);
+}
+
+.course-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 30px 0 0px 0;
+    margin: 0px;
+}
+
+.course-header ul {
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.course-header ul section {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.course-header ul section i {
+    margin-right: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.course-header button {
+    margin-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-size {
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    padding: 10px 40px 30px 40px;
+    margin: 30px 150px 30px 150px;
+    position: relative;
+}
+
+.course-info::before {
+    content: "";
+    position: absolute;
+    background: url(../Requirements-and-Resources/images/wordpress.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 500px;
+    height: 500px;
+    left: -396px;
+    bottom: -130px;
+    z-index: -1;
+    opacity: 0.3;
+    transform: rotate(45deg);
+}
+
+.course-info h2, span {
+    color: #234465;
+    font-weight: bold;
+}
+
+.course-info h1, button {
+    align-self: center;
+}
+
+.course-info .title::after {
+    display: block;
+    content: "";
+    border-bottom: 4px solid #ffa000;
+    width: 100px;
+    height: 4px;
+    margin: auto;
+}
+
+.course-info p {
+    margin: 0px 0px 20px 0px;
+}
+
+.course-info button {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.course-skills h1 {
+    text-align: center;
+    color: #234465;
+}
+
+.course-skills h1::after {
+    display: block;
+    content: "";
+    border-bottom: 4px solid #ffa000;
+    width: 360px;
+    height: 4px;
+    margin: auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.skill i {
+    color: #ffa000;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.themes h1 {
+    color: #234465;
+    text-align: center;
+}
+
+.themes h1::after {
+    display: block;
+    content: "";
+    border-bottom: 4px solid #ffa000;
+    width: 65px;
+    height: 4px;
+    margin: auto;
+}
+
+.themes ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.themes ul li {
+    background: #dadada;
+    color: black;
+    padding-left: 10px;
+    border-left: 4px solid #234465;
+    margin: 5px;
+    flex-basis: 45%;
+}
+
+.themes ul li p {
+    color: #565656;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.themes ul li span {
+    color: #234465;
+    padding-right: 20px;
+}
+
+.appropriate {
+    background: #ffa000;
+    padding-bottom: 20px;
+}
+
+.appropriate h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.appropriate h1::after {
+    display: block;
+    content: "";
+    border-bottom: 4px solid white;
+    width: 340px;
+    height: 4px;
+    margin: auto;
+}
+
+.appropriate p {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.attendance {
+    display: flex;
+    flex-direction: column;
+}
+
+.attendance>section>h3 {
+    color: #ffa000;
+    margin-bottom: 0;
+}
+
+.attendance span {
+    color: #565656;
+    font-weight: bold;
+}
+
+.link {
+    color: #337AB7;
+}
+
+.option {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0 200px 0 10px;
+}
+
+.in-place {
+    background: #234465;
+}
+
+.online {
+    background: #ffa000;
+}
+
+.option h3, .option ul {
+    margin-top: 10px;
+}
+
+.title {
+    color: #234465;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.trainer-section .title::after {
+    display: block;
+    content: "";
+    border-bottom: 4px solid #ffa000;
+    width: 165px;
+    height: 4px;
+    margin: auto;
+}
+
+.trainer {
+    display: flex;
+    align-items: center;
+    padding: 0px 70px 0 50px;
+}
+
+.trainer-image img {
+    width: 110px;
+    border-radius: 50%;
+}
+
+.trainer-info {
+    padding-left: 50px;
+}
+
+.trainer-name {
+    font-size: 25px;
+    color: #234465;
+    margin-bottom: 10px;
+}
+
+.trainer-resume {
+    margin-top: 10px;
+    line-height: 1.25;
+    font-size: 17px;
+}
+
+.trainer-resume span {
+    color: #565656;
+}
+
+.apply-btn {
+    display: flex;
+    margin: 5px auto 35px auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: #162B40;
+    padding: 30px 80px;
+}
+
+.footer-menu {
+    flex-basis: 25%;
+}
+
+.footer-menu h4 {
+    color: #ffa000;
+    margin: 10px;
+}
+
+.footer-navigation {
+    list-style: none;
+}
+
+.footer-navigation li a {
+    color: white;
+    text-decoration: none;
+    margin-left: -30px;
+}
+
+.social-medias {
+    margin: 10px -10px;
+}
+
+.social-medias i {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer-menu p {
+    color: #778390;
+}
